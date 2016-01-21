@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block head_title %} Nakul Sharma Blog | About me {% endblock %}
+{% block content %}
+  <div class="page-header text-center">
+    <h1>Nakul Sharma Blog</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img style="float:left;margin-right:10px;"src="{% static 'images/nakul.jpg' %}" /><p>Hello and Welcome to my blog. My name is Nakul Sharma and I'm a
+        software engineer from India. Here I will post about technology,
+        computer science, sports, cinema, travel, fitness and anything else that
+        catches my fancy. To read my posts, <a href="/posts/">click
+        here.</a></p><p>You can follow my social media profiles below:</p>
+        <ul style="list-style-type:none;">
+          <li><i class="fa fa-facebook"></i><a href="https://www.facebook.com/nakul21190">Facebook</a></li>
+          <li><i class="fa fa-github"></i><a href="https://github.com/9irbis">Github</a></li>
+          <li><i class="fa fa-twitter"></i><a href="https://twitter.com/nakul_21">Twitter</a></li>
+        <ul>
+    </div>
+  </div>
+{% endblock %}
